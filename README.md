@@ -31,9 +31,9 @@
 ![alt text](images/image-2.png)
 
 ## 关于bot命令
-**下面命令只能在私聊时Bot使用**
+**下面命令只能在私聊Bot时使用**
 - `ping`：检测Bot的在线状态，Bot工作正常时会回复pong
-- `start`：Bot会对自己做基本的介绍，也会列出本文档的地址
+- `start`：Bot会对自己做基本的介绍
 - `help`：Bot会做出更详细的介绍，以及加群指导，和本文档的地址
 
 **下面命令只能在群组内生效，且只对群组管理员生效，且只能通过`/cmd@bot_username`的方式来触发，如 `/on_del_service_msg@gg_1021_bot`**
