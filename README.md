@@ -7,6 +7,8 @@
 
 有任何问题和建议可以加入[Bot反馈群组](https://t.me/ggbt_1120)来交流
 
+Bot有较为详细的日志群组，但因为隐私问题该群组为私有群组，管理员们可以私聊Bot作者来请求加入日志群组。(反馈群组的Owner就是Bot作者)
+
 ## 使用须知
 - 本Bot只能工作在公共群组 **不支持私有群组和频道**
 - 群组必须开启 **Approve new member** 功能（这是Bot私聊用户做验证的前提条件，该功能不启用，Bot无法对加群成员进行验证）
@@ -14,7 +16,9 @@
 - **如果您的群组已存在其他Bot接管了群组验证，请先禁用这些Bot的群组验证功能，否则会产生冲突**（指不同Bot对新添加用户进行不一样的权限修改行为，造成非预期的权限结果，如被错误封禁或错误放行）
 - **Bot不能处理Bot被添加到群组前就已经潜伏在群里的广告**，因为Bot不会监测任何在Bot进入群组前就已在群组内的用户
 - **Bot无条件信任管理员的操作，管理员添加的成员，Bot不会对他们做任何监测，即使他们是广告**
-- Bot在维护重启后，不会处理离线时群组收到的加群请求，因为此时的验证上下文会丢失（Bot的维护计划会在反馈群组公示）
+- <b style="color:red;">除非你完全认识申请人，否则请不要手动允许加群请求，交给Bot去处理，你手动允许的用户基本上都是广告，这是经过太多次事实检验的结论</b>
+- 如果你发现群组的操作日志都是Bot的封禁操作(如 `banned 某某用户`) 这是因为无论是永久封禁还是临时封禁，都会显示为Ban，Bot并没有无差别封禁。你可以在群组的 `Manage group -> Permissions -> Removed users` 查看被永久封禁的用户
+- <b style="color:red;">如果你的群组关联了频道，而且你的群组被频道留言Spam困扰，建议你使用本Bot的同时，打开 `Manage group -> Group type -> Only members` 功能，这样只有加入了群组的成员才能在频道留言，而Bot接管了群组的验证流程，这样频道留言Spam的问题几乎能被杜绝</b>
 - Bot自身维护了一份黑名单，你可以通过指令查看自己或他人是否在黑名单内
 
 ## Bot功能
@@ -36,7 +40,7 @@
 
 ![alt text](images/image-1.png)
 
-此时如果你打开了 **Only members** 功能，那么只有加入了群组的成员，才能在频道消息内留言回复，如果你在打开 **Approve new members** 的同时，关闭了 **Only members** 功能，**Approve new members** 选项将不可见，但是不用担心，**Approve new members**功能依旧会是开启状态
+此时如果你打开了 **Only members** 功能，那么只有加入了群组的成员，才能在频道消息内留言回复，如果你在打开 **Approve new members** 的同时，关闭了 **Only members** 功能，**Approve new members** 选项将不可见，但是不用担心，**Approve new members**功能依旧会是开启状态，<b style="color:red;">强烈建议同时打开 Approve new members 和 Only members 功能，这样能最大程度的杜绝Spam加群和频道留言Spam</b>
 
 **其他客户端**可按照上面逻辑推导操作。
 
