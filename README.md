@@ -1,5 +1,8 @@
 # 这是一份关于[Group Guard Bot](https://t.me/gg_1021_bot)的说明文档
 
+## 导航
+[Bot简介](#bot简介) / [使用须知](#使用须知) / [Bot功能](#bot功能) / [关于使用Bot](#关于使用bot) / [Bot工作原理、流程和功能](#bot工作原理、流程和功能) / [关于bot命令](#关于bot命令) / [常见问题](#常见问题)
+
 ## Bot简介
 **该Bot的核心宗旨是：强力的反Spam和群聊天无感的新成员验证。**
 
@@ -72,3 +75,7 @@ Bot禁止用户通过ChatFolder加入群组，这会绕过Bot的验证流程。�
   - `/set_del_service_msg@gg_1021_bot off`：关闭
   - `/set_del_service_msg@gg_1021_bot 0`：关闭
   - `/set_del_service_msg@gg_1021_bot Ciallo～(∠·ω< )⌒☆`：关闭
+
+## 常见问题
+- 答错题Bot不会在群组永久封禁你，哪怕你答错一万次。Bot只会临时封禁你。但是你像啄木鸟一样点申请进群按钮，TG官方可能会封你
+- 如果你被群组封了，请找对应群组的管理员，在Bot反馈群组里得不到帮助
